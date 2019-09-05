@@ -26,7 +26,7 @@ Azure Notebooks is a free service that lets you run and share Jupyter Notebooks 
 
 1. Browse to [notebooks.azure.com](https://notebooks.azure.com/).
 
-1. Sign in with a Microsoft account. If you logged into Custom Vision Service in Part 1, use the same account that you used there.
+1. Sign in with a Microsoft account. Use the same account that you used in Part 1.
 
 1. Click on *New Project* and enter a project name. Select *public* if you want to share this project with others. Click *Create* to create the project.
 
