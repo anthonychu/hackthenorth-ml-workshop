@@ -125,7 +125,9 @@ Azure Notebooks is a free service that lets you run and share Jupyter Notebooks 
         print(predict_image(image))
     ```
 
-    Press *Shift-Enter* to run the cell. A prediction should appear.
+    Press *Shift-Enter* to run the cell. A prediction and the image should appear.
+
+    ![Prediction result](images/predict.png)
 
 1. Change `image_url` to `https://raw.githubusercontent.com/Azure-Samples/functions-python-tensorflow-tutorial/master/resources/assets/samples/dog1.png` and run it again.
 
