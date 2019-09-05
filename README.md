@@ -127,7 +127,7 @@ Azure Notebooks is a free service that lets you run and share Jupyter Notebooks 
         plt.show()
     ```
 
-    Press *Shift-Enter* to run the cell. A prediction and the image should appear.
+    Press *Shift-Enter* to run the cell. A prediction (`predictedTagName`) and the image should appear.
 
     ![Prediction result](images/predict.png)
 
