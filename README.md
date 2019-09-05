@@ -123,6 +123,8 @@ Azure Notebooks is a free service that lets you run and share Jupyter Notebooks 
     with urlopen(image_url) as testImage:
         image = Image.open(testImage)
         print(predict_image(image))
+        plt.imshow(image)
+        plt.show()
     ```
 
     Press *Shift-Enter* to run the cell. A prediction and the image should appear.

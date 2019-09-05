@@ -5,6 +5,7 @@ from urllib.request import urlopen
 from PIL import Image
 import tensorflow as tf
 import numpy as np
+import matplotlib.pyplot as plt
 
 filename = 'model.pb'
 labels_filename = 'labels.txt'
