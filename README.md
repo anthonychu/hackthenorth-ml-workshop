@@ -47,7 +47,9 @@ Azure Notebooks is a free service that lets you run and share Jupyter Notebooks 
 
 1. Click *Run* or press *Shift-Enter* to run the cell.
 
-    > When the cell is executing, `[*]` appears to its left. When execution completes, it should display the TensorFlow version.
+    When the cell is executing, `[*]` appears to its left. When execution completes, it should display a number like `[1]` and the TensorFlow version (should be version 1.x).
+
+    ![Check version](images/check-version.png)
 
 1. In the next cell, paste in the contents of [this file](predict_helpers.py). It contains helper methods for preprocessing the image into an input format compatible with the Custom Vision exported model.
 
