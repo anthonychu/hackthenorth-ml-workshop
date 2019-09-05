@@ -47,7 +47,7 @@ Azure Notebooks is a free service that lets you run and share Jupyter Notebooks 
 
 1. Click *Run* or press *Shift-Enter* to run the cell.
 
-    When the cell is executing, `[*]` appears to its left. When execution completes, it should display a number like `[1]` and the TensorFlow version (should be version 1.x).
+    When the cell is executing, `[*]` appears to its left. When execution completes, it should display a number such as `[1]` and the TensorFlow version (should be version 1.x).
 
     ![Check version](images/check-version.png)
 
@@ -122,7 +122,7 @@ Azure Notebooks is a free service that lets you run and share Jupyter Notebooks 
 
     with urlopen(image_url) as testImage:
         image = Image.open(testImage)
-        return predict_image(image)
+        print(predict_image(image))
     ```
 
     Press *Shift-Enter* to run the cell. A prediction should appear.
