@@ -138,11 +138,13 @@ Congratulations, you've built a custom machine learning model that classifies im
 ## Resources
 
 Azure Custom Vision Service can export models that run on many platforms.
-    - [iOS and Android](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/export-your-model)
-    - [Xamarin (cross-platform)](https://channel9.msdn.com/Shows/XamarinShow/Custom-Vision--Object-Detection-Made-Easy)
-    - [Serverless HTTP API (Python)](https://docs.microsoft.com/azure/azure-functions/functions-machine-learning-tensorflow)
-    - You can also export it as a Docker container (Dockerfile)
+
+- [iOS and Android](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/export-your-model)
+- [Xamarin (cross-platform)](https://channel9.msdn.com/Shows/XamarinShow/Custom-Vision--Object-Detection-Made-Easy)
+- [Serverless HTTP API (Python)](https://docs.microsoft.com/azure/azure-functions/functions-machine-learning-tensorflow)
+- You can also export it as a Docker container (Dockerfile)
 
 Also check out these other resources:
-    - [Object detection with Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector)
-    - [All Azure Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/)
+
+- [Object detection with Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/get-started-build-detector)
+- [All Azure Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/)
