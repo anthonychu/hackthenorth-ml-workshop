@@ -10,7 +10,7 @@ In this workshop, you will build an image classifier with Azure Custom Vision Se
 
 Follow the following instructions to create a Custom Vision project. You can use the training images linked to in the tutorial to build a cats vs dogs image classifier.
 
-[**Tutorial: Train and export a TensorFlow model with Azure Custom Vision Service**](https://github.com/Azure-Samples/functions-python-tensorflow-tutorial/blob/master/train-custom-vision-model.md)
+[**Tutorial: Train and export a TensorFlow model with Azure Custom Vision Service**](train-custom-vision-model.md)
 
 > If you are feeling adventurous or if you have another idea in mind, you can download and use your own images to train a model that recognizes other objects.
 
@@ -32,7 +32,7 @@ Azure Notebooks is a free service that lets you run and share Jupyter Notebooks 
 
     > If you need more information on how to get started with Azure Notebooks, check out the [quickstart documentation](https://docs.microsoft.com/azure/notebooks/quickstart-create-share-jupyter-notebook).
 
-1. In the new project, click the *+* button and choose *Notebook*. Give the notebook a name and select *Python 3.6*. Then click *New*.
+1. Open the new project, click the *+* button and choose *Notebook*. Give the notebook a name and select *Python 3.6*. Then click *New*.
 
 1. Next we'll upload our model. Click the *Upload* button and upload the model (`model.pb` and `labels.txt`) to the same folder as the new notebook.
 
