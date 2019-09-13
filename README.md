@@ -36,6 +36,8 @@ Azure Notebooks is a free service that lets you run and share Jupyter Notebooks 
 
 1. Next we'll upload our model. Click the *Upload* button and upload the model (`model.pb` and `labels.txt`) to the same folder as the new notebook.
 
+    > If you did not build your own model, you can use the [pre-built model here](model/).
+
 1. Click on the notebook to open it. Wait for the kernel to be ready. If prompted, select *Python 3.6*.
 
 1. Test that everything is working by checking the version of TensorFlow that is in the environment. Enter the following code into the first cell.
@@ -51,7 +53,7 @@ Azure Notebooks is a free service that lets you run and share Jupyter Notebooks 
 
     ![Check version](images/check-version.png)
 
-1. In the next cell, paste in the contents of [this file](predict_helpers.py). It contains helper methods for preprocessing the image into an input format compatible with the Custom Vision exported model.
+1. In the next cell, paste in the contents of [**this file**](predict_helpers.py). It contains helper methods for preprocessing the image into an input format compatible with the Custom Vision exported model.
 
 1. Click *Run* or press *Shift-Enter* to run the cell. Since there are only helper function declarations, there is no output.
 
